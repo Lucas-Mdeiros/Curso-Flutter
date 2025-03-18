@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_banco_douro/Ui/login_screen.dart';
 void main() {
   runApp(const BancoDouroApp());
 }
@@ -11,6 +11,6 @@ class BancoDouroApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(body:  Center(child: Text('Sistema de Gestão de Contas')),),);
+      home: LoginScreen());
   }
 }
